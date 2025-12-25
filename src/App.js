@@ -5,17 +5,19 @@ import Home from './Component/Home';
 import About from './Component/About';
 import UserInfo from './Component/UserInfo';
 import PageNotFound from './Component/PageNotFound';
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
-    // <div className="App">
+    <>
+    <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='about' element={<About />}></Route>
         <Route path='user-info' element={<UserInfo />}></Route>
         <Route path="*" element={<PageNotFound/>}></Route> 
       </Routes>
-    // </div>
+</>
   );
 }
 

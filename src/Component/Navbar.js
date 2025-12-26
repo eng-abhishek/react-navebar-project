@@ -11,7 +11,9 @@ function Navbar() {
     <NavLink to='/user-info'>User Info</NavLink>
     </nav> */}
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
+      <Link to='/'>
       <img src={logo} style={{width:"50px",height:"50px"}}></img>
+      </Link>
       <NavLink className="navbar-brand" to="/">
        Tutedude
       </NavLink>

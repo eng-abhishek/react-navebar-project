@@ -6,7 +6,7 @@ function UserInfo() {
     <>
     {/* Page Header */}
       <div className="bg-primary text-light py-5">
-        <div className="container text-center">
+        <div className="container text-center py-5">
           <h1 className="fw-bold">User Information</h1>
           <p className="lead mt-2">
             View and manage your personal details
